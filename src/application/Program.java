@@ -8,6 +8,8 @@ public class Program {
 
 		Scanner sc = new Scanner(System.in);
 		
+		
+		
 		int n1 = 0;
 		int n2 = 1;
 		int fibonacci = 0;
@@ -31,6 +33,7 @@ public class Program {
 		if(valor != 0 && aux == 0) {
 			System.out.println("O valor informado não pertence à fibonacci ");
 		}
+		sc.close();
 
 	}
 }	
